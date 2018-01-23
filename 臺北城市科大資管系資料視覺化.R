@@ -59,3 +59,4 @@ legend("topleft",legend=c("No.1","No.9","No.18"),col=c(1,2,3),lwd=2,inset=0.02)
 #直接使用 array 不必在轉換 n$Chick 的factor值
 t1=table(n$Chick)
 plot(t1,las=1,ylab="Records",xlab="Chicks",col=4)
+
